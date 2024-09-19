@@ -18,8 +18,8 @@ const Navbar = () => {
   const [currencyDropdownOpen, setCurrencyDropdownOpen] = useState(false);
 
   return (
-    <nav className="bg-white shadow-sm text-sm">
-      <div className="lg:max-w-7xl mx-auto flex justify-between items-center p-2">
+    <header className="bg-white shadow-sm text-sm text-gray-700">
+      <nav className="container mx-auto flex justify-between items-center p-2">
         {/* Desktop Navbar */}
         <div className="flex items-center">
           <Image src={logo} alt="HSKtravel" width={64} height={64} />
@@ -52,7 +52,7 @@ const Navbar = () => {
               Currency: {currency}
             </button>
             {currencyDropdownOpen && (
-              <ul className="absolute bg-white border rounded shadow-md mt-2">
+              <ul className="absolute bg-white border rounded shadow-md mt-2 ml-8 z-10">
                 {["złoty (zł)", "euro (€)", "dollar ($)"].map((cur) => (
                   <li
                     key={cur}
@@ -181,8 +181,8 @@ const Navbar = () => {
             </div>
           </div>
         )}
-      </div>
-    </nav>
+      </nav>
+    </header>
   );
 };
 
