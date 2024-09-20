@@ -2,6 +2,7 @@
 import Navbar from "@/components/layout/Navbar";
 import Hero from "@/components/section/HeroBanner";
 import PopularDestinations from "@/components/section/PopularDestinations";
+import WhyChooseUs from "@/components/section/WhyChooseUs";
 
 export default function MainPage() {
   return (
@@ -9,6 +10,7 @@ export default function MainPage() {
       <Navbar />
       <Hero />
       <PopularDestinations />
+      <WhyChooseUs />
     </div>
   );
 }
