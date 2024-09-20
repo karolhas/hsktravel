@@ -15,7 +15,7 @@ import { LuSearch } from "react-icons/lu";
 
 export default function HeroBanner() {
   return (
-    <section className="relative p-2 h-[70vh] flex items-center justify-center text-gray-700">
+    <section className="relative p-6 h-[70vh] flex items-center justify-center text-gray-700">
       <BackgroundImage />
       <Overlay />
       <Content />
@@ -58,7 +58,7 @@ const Subtitle = () => (
 
 const SearchForm = () => (
   <div className="container mx-auto bg-white rounded-lg p-4 md:p-8">
-    <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+    <div className="grid grid-cols-1 md:grid-cols-4 gap-4 items-center">
       <CountrySelect />
       <DatePicker />
       <TravelerSelect />
