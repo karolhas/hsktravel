@@ -82,7 +82,7 @@ const Navbar = () => {
         </p>
 
         {/* Bottom Navbar (Mobile/Tablets) */}
-        <footer className="bg-white fixed bottom-0 left-0 w-full z-10 shadow-[inset_0_0_5px_0_rgba(0,0,0,0.3)] md:hidden">
+        <footer className="bg-white fixed bottom-0 left-0 w-full z-50 shadow-[inset_0_0_5px_0_rgba(0,0,0,0.3)] md:hidden">
           <div className="container mx-auto flex justify-around items-center p-2 ">
             <Link
               href="/"
