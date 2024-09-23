@@ -3,9 +3,9 @@ import Image from "next/image";
 
 //components
 import { Button } from "@/components/ui/button";
-import CountrySelect from "../search/CountrySelect";
-import DatePicker from "../search/DatePicker";
-import TravelerSelect from "../search/PassengerSelect";
+import CountrySelect from "../../search/CountrySelect";
+import DatePicker from "../../search/DatePicker";
+import TravelerSelect from "../../search/PassengerSelect";
 
 //images
 import saychellesBackground from "@/public/assets/saychelles_background.jpg";
@@ -27,8 +27,8 @@ const BackgroundImage = () => (
   <Image
     src={saychellesBackground}
     alt="Beautiful travel destination"
-    layout="fill"
-    objectFit="cover"
+    fill
+    className="object-cover"
   />
 );
 

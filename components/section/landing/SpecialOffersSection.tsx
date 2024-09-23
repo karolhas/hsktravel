@@ -2,7 +2,7 @@
 import Image from "next/image";
 
 //components
-import { Button } from "../ui/button";
+import { Button } from "../../ui/button";
 
 //images
 import summer from "@/public/assets/special_offer_summer.webp";
