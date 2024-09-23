@@ -1,4 +1,5 @@
 //components
+import Footer from "@/components/layout/Footer";
 import Navbar from "@/components/layout/Navbar";
 import ExoticDestinationsSection from "@/components/section/destinations/ExoticDestinationsSection";
 import PopularDestinationsSection from "@/components/section/destinations/PopularDestinationsSection";
@@ -14,6 +15,7 @@ export default function DestinationsPage() {
         <PopularDestinationsSection />
         <ExoticDestinationsSection />
       </div>
+      <Footer />
     </>
   );
 }
