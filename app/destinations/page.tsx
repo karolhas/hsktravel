@@ -8,8 +8,8 @@ export default function DestinationsPage() {
   return (
     <>
       <Navbar />
-      <div className="container mx-auto p-6">
-        <h1 className="text-4xl font-bold mb-8">
+      <div className="container mx-auto p-6 py-12">
+        <h1 className="text-4xl font-bold mb-8 md:my-8 text-gray-700">
           Where to go on vacation? Get inspired!
         </h1>
         <PopularDestinationsSection />

@@ -1,5 +1,5 @@
 //components
-import DestinationCard from "@/components/cards/DestinationCard";
+import { DestinationCard } from "@/components/cards/DestinationCard";
 
 // images
 import egypt_hurghada from "@/public/assets/popular_destinations_egypt_hurghada.webp";

@@ -13,7 +13,7 @@ interface DestinationCardProps {
   isLarge?: boolean;
 }
 
-export default function DestinationCard({
+export function DestinationCard({
   destination,
   isLarge = false,
 }: DestinationCardProps) {
@@ -40,7 +40,7 @@ export default function DestinationCard({
           className="transition-transform duration-300 group-hover:scale-110 object-cover"
         />
       </div>
-      <div className="absolute inset-0 bg-black bg-opacity-40 transition-opacity duration-300 group-hover:bg-opacity-30" />
+      <div className="absolute inset-0 bg-black bg-opacity-20 transition-opacity duration-300 group-hover:bg-opacity-0" />
       <h3 className="absolute bottom-4 left-4 text-white text-sm lg:text-xl font-bold">
         {destination.name}
       </h3>
