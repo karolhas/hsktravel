@@ -1,5 +1,7 @@
 //components
 import { DestinationCard } from "@/components/cards/DestinationCard";
+
+//data
 import { popularDestinations } from "@/data/popularDestinations";
 
 export default function PopularDestinationsSection() {
