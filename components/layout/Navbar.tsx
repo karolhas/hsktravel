@@ -18,7 +18,7 @@ const Navbar = () => {
   const [currencyDropdownOpen, setCurrencyDropdownOpen] = useState(false);
 
   return (
-    <header className="bg-white shadow-sm text-sm text-gray-700">
+    <header className="bg-white shadow-md text-sm text-gray-700 z-50">
       <nav className="container mx-auto flex justify-between items-center p-2">
         {/* Desktop Navbar */}
         <div className="flex items-center">
